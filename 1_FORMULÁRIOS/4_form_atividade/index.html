@@ -1,0 +1,66 @@
+<!-- criar um formulario com 4 tips de input dif
+criar um gp de input do tip radio com 4 opc
+criar um select com 4 opc-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Atividades</h1>
+    </header>
+    <div>
+        <form action="">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome:"required>
+        </div>
+        <div>
+            <label for="nasc">Digite seu email</label>
+            <input type="email"id="nasc" placeholder="XXXXXX@gmail.com"required>
+        </div>
+        <div>
+            <label for="idade">Digite sua idade:</label>
+            <input type="number" id="idade"required>
+        </div>
+        <div>
+            <label for="time">Digite o horário atual:</label>
+            <input type="time" id="time" required>  
+        </div>
+        <div>
+            <label for="car">Escolha sua marca favorita:</label>
+            <select name="car" id="car">
+                <option disabled selected></option>
+                <option value="merceds">Mercedes-Benz</option>
+                <option value="bmw">BMW</option>
+                <option value="mitubish">Mitubish</option>
+                <option value="wolk">Wolkswagem</option>
+                <option value="ford">Ford</option>
+            </select>
+        </div>
+        <div>
+            <p>Toc Toc...Quem é?</p>
+            <div>
+                <input type="radio"id="papao" name="qmé">
+                <label for="papao">Bicho Papão</label>
+            </div>
+            <div>
+                <input type="radio"id="cachorro"name="qmé">
+                <label for="cachorro">Cachorro do mangue</label>
+            </div>
+            <div>
+                <input type="radio"id="agua"name="qmé">
+                <label for="cachorro">Cachorro d'água</label>
+            </div>
+            <div>
+                <input type="radio"id="palhaco"name="qmé">
+                <label for="cachorro">palhação</label>
+            </div>
+        </div>
+            <button id="botao">Enviar Formulário</button>
+    </form>
+</body>
+</html>

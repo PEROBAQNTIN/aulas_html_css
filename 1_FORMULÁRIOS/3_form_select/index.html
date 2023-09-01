@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários básico</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    
+<form action="">
+    <div>
+        <label for="nome">Nome:</label>
+        <input type="text"id="nome" placeholder="Digite seu nome" required>
+    </div>
+    <!-- input radio -->
+    <div>
+        <p>Toc Toc...Quem é?</p>
+        <div>
+            <input type="radio"id="papao" name="qmé">
+            <label for="papao">Bicho Papão</label>
+            
+        </div>
+        <div>
+            <input type="radio"id="cachorro"name="qmé">
+            <label for="cachorro">Cachorro do mangue</label>
+        </div>
+    </div>
+    <!-- select -->
+    <div>
+        <label for="turma">Escolha sua turma:</label>
+        <select name="turma" id="turma">
+            <option disabled selected></option>
+            <option value="01ta">01TA</option>
+            <option value="01tb">01TB</option>
+            <option value="01tc">01TC</option>
+
+        
+        </select>
+    </div>
+    <button id="botao">Enviar Formulário</button>
+</form>
+</body>
+</html>
